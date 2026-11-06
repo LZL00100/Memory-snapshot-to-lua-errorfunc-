@@ -1,0 +1,26 @@
+{
+  "name": "com.yourstudio.lua-error-snapshot",
+  "version": "1.0.0",
+  "displayName": "Lua Error Snapshot",
+  "description": "Zero-intrusion ToLua error hook that attaches a call-stack memory snapshot (locals + upvalues of the most recent frames) to every lua_pcall error, captured before stack unwind. Install the package and it works; no host source changes.",
+  "unity": "2019.4",
+  "keywords": [
+    "lua",
+    "tolua",
+    "error",
+    "traceback",
+    "snapshot",
+    "debug"
+  ],
+  "author": {
+    "name": "yourstudio"
+  },
+  "type": "library",
+  "samples": [
+    {
+      "displayName": "Integration notes",
+      "description": "How to install as embedded package or via git URL.",
+      "path": "Samples~"
+    }
+  ]
+}

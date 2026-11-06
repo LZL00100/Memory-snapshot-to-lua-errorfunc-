@@ -1,0 +1,12 @@
+# Unity 生成的元数据：UPM 包内 Editor/Runtime 等常规目录仍需 .meta，
+# 但以 ~ 结尾的目录（Samples~/、Documentation~/）由 Unity 忽略且不生成 .meta。
+# 下面只排除本地编辑器/系统产物，不要排除 *.meta。
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vs/
+Library/
+Temp/
+obj/
+*.user

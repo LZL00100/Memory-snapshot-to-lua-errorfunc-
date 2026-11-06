@@ -1,0 +1,10 @@
+{
+  "name": "com.yourstudio.lua-error-snapshot",
+  "version": "1.0.0",
+  "displayName": "Lua Error Snapshot",
+  "description": "Zero-intrusion ToLua errfunc hook that captures recent call-stack frames (locals + upvalues) before stack unwind.",
+  "unity": "2019.4",
+  "keywords": ["lua", "tolua", "error", "traceback", "snapshot", "debug"],
+  "author": { "name": "yourstudio" },
+  "type": "library"
+}
